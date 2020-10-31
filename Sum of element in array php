@@ -1,0 +1,8 @@
+<?php
+$days = array("Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat");
+ 
+// Printing array size
+echo count($days);
+echo "<br>";
+echo sizeof($days);
+?>
