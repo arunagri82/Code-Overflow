@@ -1,0 +1,9 @@
+def main():
+  str_1 = str(input("Enter with a string: "))
+  count=0
+  for letter in str_1:
+    count+=1
+  
+  print("The lenght of string is = "+str(count))
+
+main()
