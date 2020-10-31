@@ -1,0 +1,14 @@
+def smallest(arr,n): 
+  min = arr[0] 
+  for i in range(1, n): 
+    if arr[i] < min: 
+      min = arr[i] 
+  return min
+  
+def main():
+  arr = [1, 12, 123, 1234, -1, 0]
+  n = len(arr) 
+  Ans = smallest(arr,n) 
+  print ("Smallest in given array is", Ans)
+
+main()
